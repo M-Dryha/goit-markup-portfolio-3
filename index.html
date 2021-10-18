@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header-border">
       <div class="container header-container">
         <nav class="header-nav">
         <a href="" class="webstudio-black link"><span class="logo">Web</span>Studio</a>
@@ -44,7 +44,7 @@
     </div>
     </header>
 <main>
-   <section class="hero section hero-container">
+   <section class="section hero-container">
      <div class="container">
             <h1 class="hero-title hero-header">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero-btn btn">Заказать услугу</button>
@@ -82,7 +82,7 @@
     </div>
    </section>
    
-   <section class="section">
+   <section class="section section-photo">
        <div class="container">
             <h2 class="header-item">Чем мы занимаемся</h2>
             <ul class="photo-list">
@@ -104,39 +104,53 @@
         <ul class="our-team">
             <li class="list team-card">
                     <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270">
-                    <h3 class="team">Игорь Демьяненко</h3>
-                    <p lang="en" class="team-profession">Product Designer</p>
-            </li>
+                    <div class="team-item">
+                        <h3 class="team">Игорь Демьяненко</h3>
+                        <p lang="en" class="team-profession">Product Designer</p>
+                    </div>
+                </li>
                 <li class="list team-card">
                     <img src="./images/olha.jpg" alt="Ольга Репина" width="270">
-                    <h3 class="team">Ольга Репина</h3>
-                    <p lang="en" class="team-profession">Frontend Developer</p>
+                   <div class="team-item">
+                        <h3 class="team">Ольга Репина</h3>
+                        <p lang="en" class="team-profession">Frontend Developer</p>
+                  </div>
                 </li>
                 <li class="list team-card">
                     <img src="./images/nikolay.jpg" alt="Николай Тарасов" width="270">
-                    <h3 class="team">Николай Тарасов</h3>
-                    <p lang="en" class="team-profession">Marketing</p>
+                   <div class="team-item">
+                        <h3 class="team">Николай Тарасов</h3>
+                        <p lang="en" class="team-profession">Marketing</p>
+                  </div>
                 </li>
                 <li class="list team-card">
                     <img src="./images/michail.jpg" alt="Михаил Ермаков" width="270">
-                    <h3 class="team">Михаил Ермаков</h3>
-                    <p  lang="en" class="team-profession">UI Designer</p>
+                   <div class="team-item">
+                        <h3 class="team">Михаил Ермаков</h3>
+                        <p  lang="en" class="team-profession">UI Designer</p>
+                  </div>
                 </li>
        </ul>
     </div>
    </section>
  </main>
-    <footer class="footer">
-        <div class="container ">
-            <a href="" class=" webstudio-white link"><span class="logo">Web</span>Studio</a>
-            <address class="address">
-            <ul class="footer-list">
-                <li class="footer-adress list">г. Киев, пр-т Леси Украинки, 26</li> 
-                <li class="footer-contacts list">info@example.com</li> 
-                <li class="footer-contacts list">+38 099 111 11 11</li> 
+<footer class="footer">
+    <div class="container ">
+        <a href="" class=" webstudio-white link"><span class="logo">Web</span>Studio</a>
+        <address class="address">
+            <ul>
+                <li class="list">
+                    <a href="" class="footer-adress link">г. Киев, пр-т Леси Украинки, 26</a>
+                </li>
+                <li class="list footer-mail">
+                    <a href="" class="link footer-contacts">info@example.com</a>
+                </li>
+                <li class="list">
+                    <a href="" class="link footer-contacts">+38 099 111 11 11</a>
+                </li>
             </ul>
-            </address>
-        </div>
-    </footer>
+        </address>
+    </div>
+</footer>
 </body>
 </html>
