@@ -87,8 +87,11 @@ h6 {
 
 .navigation > .list {
   display: inline-block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+}
+
+.nav-item > .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-container {
@@ -142,8 +145,8 @@ h6 {
   letter-spacing: 0.02em;
   color: var(--primary-color-text);
 
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-contacts:not(:last-child) {
@@ -281,13 +284,13 @@ h6 {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--color-header);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   text-align: center;
 }
 
 .team-item {
-  padding: 30px 59px;
+  padding: 30px 32px;
   background-color: var(--secondary-color-text);
 }
 
@@ -331,7 +334,9 @@ h6 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color-text);
-  padding-bottom: 9px;
+}
+.footer-list {
+  margin-bottom: 9px;
 }
 
 .footer-adress:hover,
@@ -342,11 +347,6 @@ h6 {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
-}
-
-.footer-contacts-mail {
-  display: inline-block;
-  padding-bottom: 9px;
 }
 
 .footer-contacts {
