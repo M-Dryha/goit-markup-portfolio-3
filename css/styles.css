@@ -344,7 +344,7 @@ h6 {
   color: var(--accent-color);
 }
 
-.footer-mail {
+.footer-contacts-mail {
   display: inline-block;
   padding-bottom: 9px;
 }
@@ -392,13 +392,13 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-bottom: -30px;
+  margin-top: -30px;
 }
 
 .card-list > .list {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .card-item {
   padding: 20px 24px 20px 24px;
